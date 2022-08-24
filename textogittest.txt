@@ -18,10 +18,10 @@ carros
 'Spoiler frontal y trasero' in carros [-2][-2]
 
 
-A.sort()	 Ordena	la	lista	A.
-	A.append(x)	 Agrega	el	elemento	x	al	final	de	la	lista	A.
-	A.insert(i,	x)	 Inserta	x	en	la	secuencia	A	en	el	índice	informado	por	i.
-	A.remove(x)	 Elimina	la	primera	ocurrencia	de	x	de	la	secuencia	A.
-	A.pop([i])	 Elimina	y	retorna	el	elemento	de	índice	i	de	la	secuencia	A.
-	A.clear()	 Elimina	todos	los	ítems	de	la	secuencia	A.
-	A.copy()	 Crea	una	copia	de	la	secuencia	A.
+#A.sort()	        Ordena	la	lista	A.
+	A.append(x)	 #Agrega	el	elemento	x	al	final	de	la	lista	A.
+	A.insert(i,	x)	 #Inserta	x	en	la	secuencia	A	en	el	índice	informado	por	i.
+	A.remove(x)	 #Elimina	la	primera	ocurrencia	de	x	de	la	secuencia	A.
+	A.pop([i])	 #Elimina	y	retorna	el	elemento	de	índice	i	de	la	secuencia	A.
+	A.clear()	 #Elimina	todos	los	ítems	de	la	secuencia	A.
+	A.copy()	 #Crea	una	copia	de	la	secuencia	A.
