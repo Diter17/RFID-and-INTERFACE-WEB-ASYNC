@@ -1,0 +1,27 @@
+#SECUENCIAS, USAMOS LISTAS [] O TUPLAS ()
+#nombre del vehiculo
+#motor
+#año de fabricacion
+#kilometraje
+#¿es cero kilometro? (booleano)
+#Accesorios
+#valor del mercado
+
+carro_1 = ('KIA RIO S', 'Motor 1.6', '2020', False, ['Alerón','Antifaz', 'Barras de Toldo', 'Birlos de Seguridad', 'kit Deportivo', 'Localizador de vehiculo find my kia', 'Organizador de cajuela', 'porta sacos premium', 'Portatablet', 'Protectores de espejos', 'Tapetes de uso rudo', 'Tapetes GT line', 'Tapete de uso rudo para cajuela' ], '$279,000.00' )
+carro_2 = ('VENTO COMFORTLINE PLUS', 'Motor 1.6', '2020', False, ['Spoiler frontal y trasero', 'Sensores de reversa basicos acusticos', 'Rin deportivo 7j x 17', 'Kit aerodinamico', 'pedales', 'tapetes de goma'], '$259,900.00')
+carro_3 = ['SWIFT GLX', 'Motor 1.2', '2020', True, ['Carcasas de espejos cromadas', 'Spoiler superior trasero', 'Parrilla frontal', 'Moldura de tablero', 'Consola central', 'Moldura de puerta'], '$292,990.00']
+
+carros = carro_1, carro_2, carro_3
+carros
+
+#Buscamos si existe la cadena "spoiler frontal y trasero" en una subcadena especifica
+'Spoiler frontal y trasero' in carros [-2][-2]
+
+
+#A.sort()	        Ordena	la	lista	A.
+	A.append(x)	 #Agrega	el	elemento	x	al	final	de	la	lista	A.
+	A.insert(i,	x)	 #Inserta	x	en	la	secuencia	A	en	el	índice	informado	por	i.
+	A.remove(x)	 #Elimina	la	primera	ocurrencia	de	x	de	la	secuencia	A.
+	A.pop([i])	 #Elimina	y	retorna	el	elemento	de	índice	i	de	la	secuencia	A.
+	A.clear()	 #Elimina	todos	los	ítems	de	la	secuencia	A.
+	A.copy()	 #Crea	una	copia	de	la	secuencia	A.
